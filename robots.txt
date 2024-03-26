@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /private/
+Sitemap: https://bloodydaddy23.github.io/21858_David/sitemap.xml
