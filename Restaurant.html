@@ -1,0 +1,326 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>BootStrap</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="Width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+        <style>
+          body{
+            background-image:url('cockback.jpg');
+          }
+          @keyframes glowing {
+            0% {
+                text-shadow: 0 0 10px #fff, 0 0 20px #ff33cc, 0 0 30px #ff33cc;
+            }
+            50% {
+                text-shadow: 0 0 20px #000000, 0 0 30px #ff33cc, 0 0 40px #ff33cc;
+            }
+            100% {
+                text-shadow: 0 0 10px #fff, 0 0 20px #ff33cc, 0 0 30px #ff33cc;
+            }
+        }
+
+        /* Apply the animation to the text */
+        .glow-text {
+            font-size: 15px;
+            font-weight: bold;
+            color: #fff;
+            animation: glowing 2s infinite;
+        }
+        .custom-text-color {
+    color: rgb(253, 253, 253);
+  }
+        gg
+        
+        </style>
+    </head>
+    <body>
+
+        <!-- Navigation Bar -->
+       <!-- <section class ="bg-main bgcolor">-->
+            <nav class="navbar navbar-expand-lg bg-color">
+                <div class="container">
+                <a class="navbar-brand" href="#">
+                   <center> <img src="logo.jpg" alt="Restaurant Logo" width="70" height="70" class="d-inline-block align-top"><h3 class="custom-text-color">MUM'S-YUM<br><center>DINE</center></h3></center>
+                    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-capitalize dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">User</a>
+                            <div class="dropdown-menu" aria-labelledby="userDropdown">     
+                              <a class="dropdown-item" href="view.php">View</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="update.php">Update</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="delete.php">Logout/Delete</a>
+                              <div class="dropdown-divider"></div>
+                            
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link "  href="main.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="aboutus.html">About Us</a>
+                        </li>
+                
+                        
+                        <li class="nav-item"></li>
+                            <a class="nav-link text-capitalize" href="contact.html">Contact</a>
+                        </li>
+                        
+                        
+                    </li>
+                    </ul>
+                
+                </div>
+                </div>
+            </nav>
+            </section>
+        
+        <!-- Hero Section -->
+        <div class="jumbotron">
+            <div class="container text-center">
+                <center><div class="glow-text">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</div></center>
+                <h1>Welcome to Our Restaurant</h1>
+                <h5>Delicious Food Served Fresh</h5>
+                <center><div class="glow-text">~~~~~~~~~~~~~~~~~</div></center>
+                <br>
+                <br>
+                <a href="menu.html" class="btn btn-primary btn-lg">View Menu</a>
+            </div>
+        </div>
+        <br>
+        <br>
+        
+        <!-- Card Section -->
+        
+        <h3><marquee direction="right" behavior="alternate">~Cocktails & Mocktails~</marquee></h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="cock1.jpg" class="card-img-top" alt="3 LADY SHOT">
+                        <div class="card-body">
+                            <h5 class="card-title">3 LADY SHOT</h5>
+                            <p class="card-text">.</p>
+                            <a href="cock1.jpg" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="cock2.jpg" class="card-img-top" alt="BLUE LAGOON SEA">
+                        <div class="card-body">
+                            <h5 class="card-title">BLUE LAGOON SEA</h5>
+                            <p class="card-text">Description of Dish 2.</p>
+                            <a href="cock2.jpg" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="cock3.jpg" class="card-img-top" alt="FRESH LIME CRUSH">
+                        <div class="card-body">
+                            <h5 class="card-title">FRESH LIME CRUSH</h5>
+                            <p class="card-text">Description of Dish 3.</p>
+                            <a href="cock3.jpg" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <center><div class="glow-text">Click on view Menu for more Items</div></center>
+<br>
+<br>
+      
+        <h3><marquee direction="right" behavior="alternate">~Non-Veg Items~</marquee></h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="food1.jpg" class="card-img-top" alt="GRILLED LOBSTER">
+                        <div class="card-body">
+                            <h5 class="card-title">GRILLED LOBSTER</h5>
+                            <p class="card-text">Description of Dish 1.</p>
+                            <a href="food1.jpg" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="food2.jpg" class="card-img-top" alt="TANDOOR DRUMSTICK">
+                        <div class="card-body">
+                            <h5 class="card-title">TANDOOR DRUMSTICK</h5>
+                            <p class="card-text">Description of Dish 2.</p>
+                            <a href="food2.jpg" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="food3.jpg" class="card-img-top" alt="GRILLED STEAK">
+                        <div class="card-body">
+                            <h5 class="card-title">GRILLED STEAK</h5>
+                            <p class="card-text">Description of Dish 3.</p>
+                            <a href="food3.jpg" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <center><div class="glow-text">Click on view Menu for more Items</div></center>
+        <br>
+        <br>
+       
+        <h3><marquee direction="right" behavior="alternate">~Pure-Veg Items~</marquee></h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="veg.jpg" class="card-img-top" alt="RUSSIAN SALAD">
+                        <div class="card-body">
+                            <h5 class="card-title">RUSSIAN SALAD</h5>
+                            <p class="card-text">Description of Dish 1.</p>
+                            <a href="veg.jpg" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="veg3.jpg" class="card-img-top" alt="PANEER MASALA">
+                        <div class="card-body">
+                            <h5 class="card-title">PANEER MASALA</h5>
+                            <p class="card-text">Description of Dish 2.</p>
+                            <a href="veg3.jpg" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="veg2.jpg" class="card-img-top" alt="ITALIAN PASTA">
+                        <div class="card-body">
+                            <h5 class="card-title">ITALIAN PASTA</h5>
+                            <p class="card-text">Description of Dish 3.</p>
+                            <a href="veg2.jpg" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <center><div class="glow-text">Click on view Menu for more Items</div></center>
+<br>
+<br>
+
+        <h3><marquee direction="right" behavior="alternate">~Dessert Items~</marquee></h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="des1.jpg" class="card-img-top" alt="BLUEBERRY PUDDING">
+                        <div class="card-body">
+                            <h5 class="card-title">BLUEBERRY PUDDING</h5>
+                            <p class="card-text">Description of Dish 1.</p>
+                            <a href="des1.jpg" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="des2.jpg" class="card-img-top" alt="CHOCOLATE MUSSE">
+                        <div class="card-body">
+                            <h5 class="card-title">CHOCOLATE MUSSE</h5>
+                            <p class="card-text">Description of Dish 2.</p>
+                            <a href="des2.jpg" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="des3.jpg" class="card-img-top" alt="VANILLA ICECREAM">
+                        <div class="card-body">
+                            <h5 class="card-title">VANILLA ICECREAM</h5>
+                            <p class="card-text">Description of Dish 3.</p>
+                            <a href="des3.jpg" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <center><div class="glow-text">Click on view Menu for more Items</div></center>
+<br>
+<br>
+<!-- FOOTER -->
+<section class="common-section mb-2 pt-1 bg-color">
+    <footer class="main-footer-section" width="100%">
+        <div class="contact-details">
+            <div class="footer-section py-5 text-white">
+                <div class="container" style="background-color: #1c1c1c;">
+                    <div class="row" >
+                        <div class="col-lg-6 col-md-6 col-12">
+                            <div class="footer-links">
+                                <h4 class="mt-5 mb-3 text-white">Subscribe</h4>
+                                <div class="input-group mb-3 w-75">
+                                    <input type="text" class="form-control" placeholder="Recipient's username"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <span class="input-group-text btn btn-primary" id="basic-addon2">Subscribe</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            
+    
+    
+            
+                <hr class="container mx-auto">
+    
+                <div class="row">
+                    <div class="col-lg-8 col-12 ">
+                        Copyright ©2023 All rights reserved. | This template is made with bootstrap 
+                    </div>
+                    <div class="col-md-4 col-12  ">
+                        <div class="d-flex justify-content-center justify-content-lg-end gap-5 mt-lg-0 mt-3">
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <div class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                            </a>
+                            <a href="#">
+                            <div class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div></a>
+                            <a href="https://www.x.com">
+                            <div class="icon-span d-flex justify-content-center align-items-center rounded-circle mb-3">
+    <!--                            <i class="fa-brands fa-whatsapp"></i>-->
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>   
+</section>
+<!--FOOTER END-->
+<section height=50px></section>
+        
+
+       
+       
+        <!-- Include Bootstrap JS and jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+        </body>
+        </html>
+       

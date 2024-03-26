@@ -1,0 +1,75 @@
+    @import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@800&display=swap");
+    *{
+        font-family: sans-serif;
+        box-sizing: border-box;
+        font-family: 'Gabarito', cursive;
+    }
+
+    .error {
+        background: #F2DEDE;
+        color: #A94442;
+        padding: 10px;
+        width: 95%;
+        border-radius: 5px;
+        margin: 20px a
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url(graphic.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;        }
+
+ .box{ 
+        width: 370px;
+        border: 2px solid #ccc;
+        padding: 30px;
+        background: rgba(238, 254, 10, 0.918);
+        border-radius: 10px;
+    
+    } 
+           
+
+.first{
+        text-align: center;
+        margin-bottom: 45px;
+        color: white;
+        font-size: 2.5rem;
+}
+
+
+#para{
+        font-size: 800%;
+        padding-right: 100px;
+        padding-top: 65px;
+        color: white;
+}
+#simppara{
+        font-size: 10%;
+        color: white;
+    }
+
+.input{ 
+    display: block;
+    padding: 5px;
+    margin: 10px ;
+    width: 95%;
+    border: 1px #ccc;
+    border-radius: 3px;
+} 
+
+.button{
+    float: left;
+    padding: 10px 50px;
+    color: black;
+    border-radius: 3px;
+    margin-left: 10px;
+    border: none;
+}
+a{
+    color:white;
+    padding-left: 10px;  
+}
